@@ -1,0 +1,14 @@
+interface:
+  display_name: Project handover
+  short_description: Leave the next AI session ready to pick up your work
+  default_prompt: Use $project-handover to save a concise, evidence-backed handover
+    for the next session.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
